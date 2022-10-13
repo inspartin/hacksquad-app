@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "tmp1",
+    "slug": "tmp1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/playstore.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/mysplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#38bdf8"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#38bdf8"
+      },
+      "package": "com.tusharmukati.active_weather_1"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
