@@ -1,12 +1,9 @@
 import { View, Text } from "react-native";
 import React from "react";
+import HomeScreen from "../HomeScreen";
 
 const MyNavigation = () => {
-  return (
-    <View>
-      <Text>MyNavigation</Text>
-    </View>
-  );
+  return <HomeScreen />;
 };
 
 export default MyNavigation;

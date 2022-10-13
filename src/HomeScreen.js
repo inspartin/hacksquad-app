@@ -1,12 +1,9 @@
 import { View, Text } from "react-native";
 import React from "react";
+import Loginscreen from "./Screens/Loginscreen";
 
 const HomeScreen = () => {
-  return (
-    <View className="flex-1 bg-red-500 justify-center items-center">
-      <Text>HomeScreen</Text>
-    </View>
-  );
+  return <Loginscreen />;
 };
 
 export default HomeScreen;
